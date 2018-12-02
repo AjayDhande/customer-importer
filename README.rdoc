@@ -1,0 +1,23 @@
+# Customer Importer APP
+
+Ruby version:- 2.5.1
+Rails version:- 5.2.0
+
+Note:- Please edit config/application.yml file
+
+All given scenarios has been covered in this app and unit testing is done using Rspec
+
+Assumption:-
+
+1. Customer and User are two different models
+2. Only user will get email when created
+3. When uploaded metadata of user, User should get created
+4. When uploaded metadata of customer, Customer should get created
+5. Importer has been implemented for xlsx and csv file format
+
+If has given some more time
+
+1. More File formats can be included in the importer
+2. More scenarios can be included in the test
+3. Application can be more optimized
+4. UI representation can be improved
